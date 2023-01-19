@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: rgb(32, 32, 32);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.uno {
+  background: rgb(231, 156, 16);
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.dos {
+  background: rgb(137, 12, 220);
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.tres {
+  background: rgb(30, 177, 210);
+  width: 180px;
+  height: 150px;
+  border-radius: 15px;
+}
